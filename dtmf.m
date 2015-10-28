@@ -44,6 +44,5 @@ function dtmf()
             fprintf('Key %s start at %.4f s\n',curkey,i*l/(Fs*size(s,2)))
             lastkey = curkey;
         end
-
     end
 end
